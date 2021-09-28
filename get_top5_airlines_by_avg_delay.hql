@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS ${SCHEMA}.avg_delay_result (
 	IATA_CODE string,
-	AVG_DELAY int
+	AVG_DELAY float
 )
 STORED AS ORC;
 
