@@ -51,4 +51,7 @@ echo "$SUBMIT_CMD"
 ${SUBMIT_CMD}
 
 rm "$QUERY_PATH"
+
+echo "-------------------------------------"
+echo "data loaded to the table 'flight_delays.flights'"
 echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"

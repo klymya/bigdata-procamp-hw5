@@ -41,7 +41,7 @@ echo "$QUERY" > "$QUERY_PATH"
 SUBMIT_CMD="hive -f ${QUERY_PATH}"
 
 echo "$SUBMIT_CMD"
-# ${SUBMIT_CMD}
+${SUBMIT_CMD}
 
 rm "$QUERY_PATH"
 
