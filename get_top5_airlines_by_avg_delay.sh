@@ -8,7 +8,7 @@ usage() {
 }
 
 
-while getopts ":i:" opt; do
+while getopts ":s:" opt; do
     case "$opt" in
         s)  SCHEMA=${OPTARG} ;;
         *)  usage ;;
